@@ -1,0 +1,1 @@
+Ninkaan waa nin waalan
