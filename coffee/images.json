@@ -1,0 +1,35 @@
+{
+    "carousel": {
+      "coffee_img_1": {
+        "src": "/images/coffee/coffee_img_1.jpeg",
+        "alt": "Coffee"
+      },
+      "coffee_img_2": {
+        "src": "/images/coffee/coffee_img_2.jpg",
+        "alt": "Coffee"
+      },
+      "coffee_img_3": {
+        "src": "/images/coffee/coffee_img_3.jpg",
+        "alt": "Coffee"
+      }
+    },
+    "coffee_products": {
+      "raw_coffee": {
+        "src": "/images/coffee/raw_coffee.jpg",
+        "alt": "raw coffee"
+      },
+      "light_roast": {
+        "src": "/images/coffee/light_roast.jpg",
+        "alt": "light roast"
+      },
+      "medium_roast": {
+        "src": "/images/coffee/medium_roast.jpg",
+        "alt": "medium roast"
+      },
+      "dark_roast": {
+        "src": "/images/coffee/dark_roast.jpg",
+        "alt": "dark roast"
+      }
+    }
+  }
+  
