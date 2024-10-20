@@ -1,0 +1,29 @@
+{
+    "about_page": {
+      "authors": {
+        "stormy_image": {
+          "src": "/images/stormy.jpg",
+          "alt": "Stormy, Yonas' dog"
+        },
+        "aisha_image": {
+          "src": "/images/amiri.jpg",
+          "alt": "Aisha's favorite tea spot"
+        }
+      },
+      "tea_tier_list": {
+        "masala_chai_image": {
+          "src": "/images/tea/masala chai.JPG",
+          "alt": "Masala Chai"
+        },
+        "matcha_tea_image": {
+          "src": "/images/tea/matcha tea.jpg",
+          "alt": "Matcha Tea"
+        },
+        "moroccan_mint_tea_image": {
+          "src": "/images/tea/moroccan mint tea.jpg",
+          "alt": "Moroccan Mint Tea"
+        }
+      }
+    }
+  }
+  
