@@ -1,0 +1,43 @@
+{
+    "carousel": {
+      "tea_1": {
+        "src": "/images/tea/tea_1.jpg",
+        "alt": "tea"
+      },
+      "tea_2": {
+        "src": "/images/tea/tea_2.jpg",
+        "alt": "tea"
+      },
+      "tea_3": {
+        "src": "/images/tea/tea_3.jpg",
+        "alt": "tea"
+      }
+    },
+    "teas": {
+      "chai": {
+        "src": "/images/tea/chai.jpg",
+        "alt": "chai tea"
+      },
+      "chamomile": {
+        "src": "/images/tea/chamomile.jpg",
+        "alt": "chamomile tea"
+      },
+      "ginger": {
+        "src": "/images/tea/ginger.jpg",
+        "alt": "Ginger Tea"
+      },
+      "matcha": {
+        "src": "/images/tea/Matcha.jpg",
+        "alt": "Matcha Tea"
+      },
+      "oolong": {
+        "src": "/images/tea/oolong.jpg",
+        "alt": "Oolong Tea"
+      },
+      "thai": {
+        "src": "/images/tea/Thai_Tea.jpg",
+        "alt": "Thai Tea"
+      }
+    }
+  }
+  

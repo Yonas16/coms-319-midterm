@@ -16,6 +16,7 @@
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <script  src ="shop1.js"></script>
 
 
 
@@ -99,7 +100,7 @@
     </style>
 
     
-    <link href="shop1.css" rel="stylesheet">
+    <link href="/styles/shop1.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -154,22 +155,22 @@
             <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
               
             </a>
-  
+    
             <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
               <li>
-                <a href="/cover/index.html" class="nav-link text-secondary">
+                <a href="/index.html" class="nav-link text-secondary">
                   <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
                   Home
                 </a>
               </li>
               <li>
-                <a href="/shop2/shop2.html" class="nav-link text-white">
+                <a href="/coffee/shop2.html" class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
                   Coffee
                 </a>
               </li>
               <li>
-                <a href="/shop1/shop1.html" class="nav-link text-white">
+                <a href="/tea/shop1.html" class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
                   Tea
                 </a>
@@ -186,6 +187,7 @@
       </div>
     </header>
 
+
 <main>
 
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -196,7 +198,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/images/tea/tea_1.jpg" alt="tea" class="d-block w-100">
+        <img class="carousel-image d-block w-100" data-name="tea_1" alt="tea" />
         <div class="container">
           <div class="carousel-caption text-start">
             <h1 style="color: gold;">GET YOURSELF SOME TEA!</h1>
@@ -204,7 +206,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/images/tea/tea_2.jpg" alt="tea" class="d-block w-100">
+        <img class="carousel-image d-block w-100" data-name="tea_2" alt="tea" />
         <div class="container">
           <div class="carousel-caption">
             <h1>Tea is so good!</h1>
@@ -212,7 +214,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/images/tea/tea_3.jpg" alt="tea" class="d-block w-100">
+        <img class="carousel-image d-block w-100" data-name="tea_3" alt="tea" />
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>Tea</h1>
@@ -236,17 +238,17 @@
 
     <div class="row">
       <div class="col-lg-4">
-        <img src="/images/tea/chai.jpg" class="bd-placeholder-img rounded-circle" alt="chai tea" width="140" height="140">
+        <img class="tea-image bd-placeholder-img rounded-circle" data-name="chai" alt="chai tea" width="140" height="140">
         <h2 class="fw-normal">Chai Tea</h2>
         <p>Have you ever had black tea? Was the black tea you had boring and plain? Don't worry because Yonas thought the same. But unlike Yonas, Aisha has had a variety of black teas, including Masala Chai! Chai differs slightly,it's an aromatic beverage that blends black tea with various herbs and spices. In particular we'd like to recommend adding cardamom, cloves, and peppercorn (Black pepper).</p>
       </div>
       <div class="col-lg-4">
-        <img src="/images/tea/chamomile.jpg" class="bd-placeholder-img rounded-circle" alt="chamomile tea" width="140" height="140">
+        <img class="tea-image bd-placeholder-img rounded-circle" data-name="chamomile" alt="chamomile tea" width="140" height="140" />
         <h2 class="fw-normal">Chamomile Tea</h2>
         <p>Chamomile tea is one of the more popular teas, as it is well know for its soothing effects. It has a positive impact on human ailments such as gastrointestinal disturbances including flatulence, indigestion, diarrhea, anorexia, motion sickness, nausea, and vomiting. Chamomile tea is best to drink right before going to sleep, as its soothing effects are more noticeable then.</p>
       </div>
       <div class="col-lg-4">
-        <img src="/images/tea/ginger.jpg" alt="Ginger Tea" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <img class="tea-image rounded-circle" data-name="ginger" width="140" height="140">
         <h2 class="fw-normal">Ginger Tea</h2>
         <p>Ginger tea can be made from tea bags, loose dry ginger, or fresh ginger. Made by infusing dried or fresh ginger in hot water for a few minutes, allowing the oils of the ginger to infuse into the water before drinking. Benefits include: motion sickness relief, pain relief, helps manage blood sugars, gastrointestinal relief, and many more benefits.</p>
       </div>
@@ -259,17 +261,17 @@
 
   <div class="row">
     <div class="col-lg-4">
-      <img src="/images/tea/Matcha.jpg" alt="Matcha Tea" class="bd-placeholder-img rounded-circle" width="140" height="140">
+      <img class="tea-image bd-placeholder-img rounded-circle" data-name="matcha" width="140" height="140">
       <h2 class="fw-normal">Matcha Tea</h2>
       <p>Matcha is a finely ground powder made from specially grown green tea leaves. Unlike regular green tea, where the leaves are made from the entire leaf. Matcha is made by only taking the purest parts of the plant leaves, and finely grounding them after. Green tea is steeped in water and then discarded, matcha involves consuming the entire leaf, providing a more concentrated source of nutrients. Matcha is well known for its 'grassy' flavor, but is so much more than that. Its is higher in concentration of antioxidants, vitamins, and caffeine than the other teas on this list.</p>
     </div>
     <div class="col-lg-4">
-      <img src="/images/tea/oolong.jpg" alt="Oolong Tea" class="bd-placeholder-img rounded-circle" width="140" height="140">
+      <img class="tea-image bd-placeholder-img rounded-circle" data-name="oolong" width="140" height="140">
       <h2 class="fw-normal">Oolong Tea</h2>
       <p>Oolong tea is made from the same plant as green tea. Its dried leaves and leaf buds are used to make several other teas, including black and green teas. Oolong tea is fermented for longer than green tea, but less than black tea. It contains caffeine which affects thinking and alertness, great for studying!</p>  
     </div>
     <div class="col-lg-4">
-      <img src="/images/tea/Thai_Tea.jpg" alt="Thai Tea" class="bd-placeholder-img rounded-circle" width="140" height="140">
+      <img class="tea-image bd-placeholder-img rounded-circle" data-name="thai" width="140" height="140">
       <h2 class="fw-normal">Thai Tea</h2>
       <p>Thai tea is a great tea to have iced. It is a sweet, creamy tea commonly enjoyed in Thailand, often served iced. It is made from strong brewed black tea, typically combined with spices such as star anise, tamarind, and sometimes orange blossom water. The tea is then sweetened with sugar and condensed milk, which gives it a rich, creamy texture. Its is known for its orange color which often times comes from food coloring. Best over ice with evaporated milk or half and half.</p>
     </div>
