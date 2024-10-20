@@ -1,2 +1,7 @@
-Ninkaan waa nin waalan
-Aisha way ka fiicantahay wiilkaan
+MIDTERM 1 FOR COMS 3190
+
+AUTHORS
+
+YONAS
+
+CAISHA
