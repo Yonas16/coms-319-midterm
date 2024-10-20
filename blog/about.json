@@ -1,0 +1,26 @@
+{
+    "about": {
+      "stormy": {
+        "src": "/images/stormy.jpg",
+        "alt": "stromy"
+      },
+      "amiri": {
+        "src": "/images/amiri.jpg",
+        "alt": "amiri"
+      }
+    },
+      "tea": {
+        "masala chai": {
+          "src": "/images/tea/masala chai.JPG",
+          "alt": "masala chai"
+        },
+        "matcha tea": {
+          "src": "/images/tea/matcha tea.jpg",
+          "alt": "matcha"
+        },
+        "moroccan mint tea": {
+          "src": "/images/tea/moroccan mint tea.jpg",
+          "alt": "moroccan mint tea"
+        }
+      }
+}

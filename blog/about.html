@@ -100,6 +100,8 @@
     
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <link href="about.css" rel="stylesheet">
+    <script src="about.js"></script>
+
   </head>
   <body>
         
@@ -168,25 +170,25 @@
 
           <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
             <li>
-              <a href="/hw 1/cover/index.html" class="nav-link text-secondary">
+              <a href="/cover/index.html" class="nav-link text-secondary">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
                 Home
               </a>
             </li>
             <li>
-              <a href="/hw 1/shop2/shop2.html" class="nav-link text-white">
+              <a href="/shop2/shop2.html" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
                 Coffee
               </a>
             </li>
             <li>
-              <a href="/hw 1/shop1/shop1.html" class="nav-link text-white">
+              <a href="/shop1/shop1.html" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
                 Tea
               </a>
             </li>
             <li>
-              <a href="/hw 1/blog/about.html" class="nav-link text-white">
+              <a href="/blog/about.html" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
                 About
               </a>
@@ -215,9 +217,8 @@
           <div class="mb-1 text-body-secondary">yonas@iastate.edu</div>
           <p class="card-text mb-auto">I like liverpool and I have a dog named Stormy</p>
         </div>
-        <div class="col-auto d-none d-lg-block">
-          
-          <img src="/hw 1/images/stormy.jpg" class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+        <div class="col-auto d-none d-lg-block">  
+          <img class="about-image bd-placeholder-img" data-name="stormy" width="200" height="250" alt="stormy" />
         </div>
       </div>
     </div>
@@ -225,14 +226,15 @@
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-2 text-success-emphasis">Author</strong>
-          <h3 class="mb-0">Aisha Mohadmed</h3>
+          <h3 class="mb-0">Aisha Mohamed</h3>
           <div class="mb-1 text-body-secondary">aisha717@iastate.edu</div>
           <p class="mb-auto">Somali Shaah (tea) is the best tea </p>
           </a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img src="/hw 1/images/amiri.jpg" class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
-        </div>
+          <img class = "about-image" class="bd-placeholder-img" data-name="amiri" width="200" height="250" alt="amiri" />
+      </div>
+      
       </div>
     </div>
   </div>
@@ -293,32 +295,33 @@
         <div>
           <h4 class="fst-italic">Aisha's Tea Tier List</h4>
           <ul class="list-unstyled">
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" >
-                <img src="/hw 1/images/tea/masala chai.JPG" alt="Masala Chai" class="bd-placeholder-img" width="25%" height="5%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Masala Chai</h6>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
-                <img src="/hw 1/images/tea/matcha tea.jpg" alt="Matcha Tea" class="bd-placeholder-img" width="25%" height="25%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Matcha Tea</h6>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
-                <img src="/hw 1/images/tea/moroccan mint tea.jpg" alt="Moroccan Mint Tea" class="bd-placeholder-img" width="25%" height="25%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Moroccan Mint Tea</h6>
-                </div>
-              </a>
-            </li>
+              <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img class="tea-image bd-placeholder-img" data-name="masala chai" alt="Masala Chai" width="25%" height="25%" />
+                      <div class="col-lg-8">
+                          <h6 class="mb-0">Masala Chai</h6>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img class="tea-image bd-placeholder-img" data-name="matcha tea" alt="Matcha Tea" width="25%" height="25%" />
+                      <div class="col-lg-8">
+                          <h6 class="mb-0">Matcha Tea</h6>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+                      <img class="tea-image bd-placeholder-img" data-name="moroccan mint tea" alt="Moroccan Mint Tea" width="25%" height="25%" />
+                      <div class="col-lg-8">
+                          <h6 class="mb-0">Moroccan Mint Tea</h6>
+                      </div>
+                  </a>
+              </li>
           </ul>
-        </div>
+      </div>
+      
 
         
       </div>
