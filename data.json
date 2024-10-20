@@ -1,0 +1,12 @@
+{
+  "index.html": {
+    "coffee_home": {
+      "src": "/images/tea/Home.png",
+      "alt": "Coffee Image"
+    },
+    "tea_home": {
+      "src": "/images/tea/tea_home.jpg",
+      "alt": "Tea Image"
+    }
+  }
+}

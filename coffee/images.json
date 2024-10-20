@@ -1,0 +1,46 @@
+{
+  "carousel": {
+    "coffee_img_1": {
+      "src": "/images/coffee/coffee_img_1.jpeg",
+      "alt": "Coffee"
+    },
+    "coffee_img_2": {
+      "src": "/images/coffee/coffee_img_2.jpg",
+      "alt": "Coffee"
+    },
+    "coffee_img_3": {
+      "src": "/images/coffee/coffee_img_3.jpg",
+      "alt": "Coffee"
+    }
+  },
+  "coffee_products": {
+    "raw_coffee": {
+      "src": "/images/coffee/raw_coffee.jpg",
+      "alt": "raw coffee",
+      "heading": "Want it your way?",
+      "subheading": " Try our raw coffee beans!",
+      "description": "With raw coffee beans you can roast your coffee however you want. Turn the dial up and get that dark robust flavor, or keep it light to brighten up your day. I wouldn't suggest eating them though, as they are difficult to chew and difficult to digest."
+    },
+    "light_roast": {
+      "src": "/images/coffee/light_roast.jpg",
+      "alt": "light roast",
+      "heading": "Preserve the taste with a",
+      "subheading": " Light Roast!",
+      "description": "If you want something fruitier and brighter to start your day then please try the light roast. You get to maintain the flavor you love and experience a coffee taste beyond imagination. Although there's a minimal difference in caffeine levels between the roasts, the lighter roast has a slightly higher caffeine content."
+    },
+    "medium_roast": {
+      "src": "/images/coffee/medium_roast.jpg",
+      "alt": "medium roast",
+      "heading": "Do you still want flavor retention and sweetness?",
+      "subheading": " Try the Medium Roast!",
+      "description": "Medium Roast is a brown color and rarely has an oily surface. Coffees like this have a medium acidity and a rounded flavor profile. Roasting to this level allows us to maintain many of the unique flavors of the coffee's origin, but it also begins to reach into the deep caramel sweetness of this roast."
+    },
+    "dark_roast": {
+      "src": "/images/coffee/dark_roast.jpg",
+      "alt": "dark roast",
+      "heading": "You want it extra dark?",
+      "subheading": " Come try the Dark Roast!",
+      "description": "Dark roast coffee is recognized by its dark brown, almost black, color and strong scent. Dark roast coffee typically has a bold, smoky taste since the coffee's country of origin flavors are almost entirely roasted out. Darker Roasts are usually lower in caffeine."
+    }
+  }
+}

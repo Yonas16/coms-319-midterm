@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Function to load carousel and tea images
+=======
+
+>>>>>>> f47a71e1e4c98c0e8a108f410507c0b72cd35653
 function loadCarouselAndTeaImages() {
     fetch("shop1.json")
       .then(response => {
@@ -8,7 +12,11 @@ function loadCarouselAndTeaImages() {
         return response.json();
       })
       .then(data => {
+<<<<<<< HEAD
         // Load carousel images
+=======
+
+>>>>>>> f47a71e1e4c98c0e8a108f410507c0b72cd35653
         const carouselImages = data.carousel;
         Object.keys(carouselImages).forEach(key => {
           const imgElement = document.querySelector(`.carousel-image[data-name="${key}"]`);
@@ -18,7 +26,11 @@ function loadCarouselAndTeaImages() {
           }
         });
 
+<<<<<<< HEAD
         // Load tea images
+=======
+
+>>>>>>> f47a71e1e4c98c0e8a108f410507c0b72cd35653
         const teaImages = data.teas;
         Object.keys(teaImages).forEach(key => {
           const imgElement = document.querySelector(`.tea-image[data-name="${key}"]`);
@@ -33,4 +45,8 @@ function loadCarouselAndTeaImages() {
       });
 }
 
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', loadCarouselAndTeaImages);
+=======
+document.addEventListener('DOMContentLoaded', loadCarouselAndTeaImages);
+>>>>>>> f47a71e1e4c98c0e8a108f410507c0b72cd35653
