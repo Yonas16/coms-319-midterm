@@ -1,46 +1,46 @@
 {
     "carousel": {
       "tea_1": {
-        "src": "/images/tea/tea_1.jpg",
+        "src": "../images/tea/tea_1.jpg",
         "alt": "tea"
       },
       "tea_2": {
-        "src": "/images/tea/tea_2.jpg",
+        "src": "../images/tea/tea_2.jpg",
         "alt": "tea"
       },
       "tea_3": {
-        "src": "/images/tea/tea_3.jpg",
+        "src": "../images/tea/tea_3.jpg",
         "alt": "tea"
       }
     },
     "teas": {
       "chai": {
-        "src": "/images/tea/chai.jpg",
+        "src": "../images/tea/chai.jpg",
         "alt": "chai tea",
         "description": "Have you ever had black tea? Was the black tea you had boring and plain? Don't worry because Yonas thought the same. But unlike Yonas, Aisha has had a variety of black teas, including Masala Chai! Chai differs slightly,it's an aromatic beverage that blends black tea with various herbs and spices. In particular we'd like to recommend adding cardamom, cloves, and peppercorn (Black pepper)."
       },
       "chamomile": {
-        "src": "/images/tea/chamomile.jpg",
+        "src": "../images/tea/chamomile.jpg",
         "alt": "chamomile tea",
         "description": "Chamomile tea is one of the more popular teas, as it is well know for its soothing effects. It has a positive impact on human ailments such as gastrointestinal disturbances including flatulence, indigestion, diarrhea, anorexia, motion sickness, nausea, and vomiting. Chamomile tea is best to drink right before going to sleep, as its soothing effects are more noticeable then."
       },
       "ginger": {
-        "src": "/images/tea/ginger.jpg",
+        "src": "../images/tea/ginger.jpg",
         "alt": "Ginger Tea",
         "description": "Ginger tea can be made from tea bags, loose dry ginger, or fresh ginger. Made by infusing dried or fresh ginger in hot water for a few minutes, allowing the oils of the ginger to infuse into the water before drinking. Benefits include: motion sickness relief, pain relief, helps manage blood sugars, gastrointestinal relief, and many more benefits."
       },
       "matcha": {
-        "src": "/images/tea/Matcha.jpg",
+        "src": "../images/tea/Matcha.jpg",
         "alt": "Matcha Tea",
         "description": "Matcha is a finely ground powder made from specially grown green tea leaves. Unlike regular green tea, where the leaves are made from the entire leaf. Matcha is made by only taking the purest parts of the plant leaves, and finely grounding them after. Green tea is steeped in water and then discarded, matcha involves consuming the entire leaf, providing a more concentrated source of nutrients. Matcha is well known for its 'grassy' flavor, but is so much more than that. Its is higher in concentration of antioxidants, vitamins, and caffeine than the other teas on this list."
       },
       "oolong": {
-        "src": "/images/tea/oolong.jpg",
+        "src": "../images/tea/oolong.jpg",
         "alt": "Oolong Tea",
         "description": "Oolong tea is made from the same plant as green tea. Its dried leaves and leaf buds are used to make several other teas, including black and green teas. Oolong tea is fermented for longer than green tea, but less than black tea. It contains caffeine which affects thinking and alertness, great for studying!"
       },
       "thai": {
-        "src": "/images/tea/Thai_Tea.jpg",
+        "src": "../images/tea/Thai_Tea.jpg",
         "alt": "Thai Tea",
         "description": "Thai tea is a great tea to have iced. It is a sweet, creamy tea commonly enjoyed in Thailand, often served iced. It is made from strong brewed black tea, typically combined with spices such as star anise, tamarind, and sometimes orange blossom water. The tea is then sweetened with sugar and condensed milk, which gives it a rich, creamy texture. Its is known for its orange color which often times comes from food coloring. Best over ice with evaporated milk or half and half."
       }
