@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('images.json')
+    fetch('./images.json')
         .then(response => response.json())
         .then(data => {
             document.getElementById("stormy_image").src = data.about_page.authors.stormy_image.src;
